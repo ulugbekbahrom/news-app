@@ -91,9 +91,7 @@ LOGOUT_REDIRECT_URL = 'home'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
         'default': env.dj_db_url('DATABASE_URL')
-    }
 }
 
 
